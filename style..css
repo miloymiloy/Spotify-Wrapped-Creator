@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+.container-fluid{
+    min-height: 100vh;
+  background-color: #252525;
+}
+.card{
+}
+.content-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template-box{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.template-box img{
+    width: 300px;
+    height: 500px;
+    z-index: 0;
+
+}
+.template-edit-content{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+}
+.template-img-wrapper{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 4rem 4rem 4rem;
+}
+.template-img-wrapper img{
+    height: 142px;
+    width: 152px;
+  
+}
+.template-artsong-wrapper{
+    height: 24%;
+    display: flex;
+    
+}
+.template-artist-box{
+    height: 100%;
+    width: 50%;
+    
+}
+.template-song-box{
+    height: 100%;
+    width: 50%;
+    padding: 0;
+}
+.template-song-box h6{
+    padding-left: .2rem;
+}
+.template-song-box ol{
+    padding-left: 1rem;
+}
+h6{
+    padding-left: 1rem;
+}
+ol li{
+    margin: 0;
+    padding: 0;
+    font-size: .7rem;
+}
+.template-last-cont-wrapper{
+    height: 18%;
+    display: flex;
+}
+
+.template-minute-box, .template-genre-box{
+    height: 100%;
+    width: 50%;
+}
+.template-minute-box h6{
+    margin: 0;
+    padding-left: 1rem;
+}
+.template-minute-box h4{
+    padding-left: 1.8rem;
+}
+.template-genre-box{
+    padding-left: .2rem;
+}
+.template-genre-box h6{
+    padding: 0;
+    margin: 0;
+}
+.template-footer{
+    height: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+
+}
+.template-footer div:first-child{
+    width: 40%;
+    margin: 0;
+    padding-left: 1rem;
+    padding-top: .4rem;
+    display: flex;
+}
+.template-footer div:first-child span{
+  padding-left: 4px;
+}
+.template-footer div:last-child{
+    width: 60%;
+    margin: 0;
+    display: flex;
+    padding-top: .5rem;
+    padding-left: 1rem;
+}
+.template-footer div:last-child span{
+    font-size: .8rem;
+}
+span{
+    font-size: .9rem;
+}
+.template-selection-box{
+    display: flex;
+}
+.template-selection-items{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .2rem;
+    cursor: pointer;
+}
+.template-selection-items:hover{
+    background-color: rgb(223, 228, 228);
+    
+}
+.template-selected{
+    background-color: gray;
+}
