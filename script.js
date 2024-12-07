@@ -1,19 +1,20 @@
 function template1(){
-    $('.template-bg').attr('src','/template/1.webp')
+    
+    $('.template-bg,.template-preview').attr('src','/template/1.webp')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#111111')
     $('.ft-color,.ft1-color').css('color','#f3ff48')
     $('.template-img-wrapper img').css({'height':'142px', 'width': '152px'})
     $('.template-img-wrapper').css('padding', '5rem 4rem 4rem 4rem')
 }
 function template2(){
-    $('.template-bg').attr('src','/template/2.webp')
+    $('.template-bg,.template-preview').attr('src','/template/2.webp')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#410075')
     $('.ft-color,.ft1-color').css('color','#F1E8FA')
     $('.template-img-wrapper img').css({'height':'170px', 'width': '164px'})
     $('.template-img-wrapper').css('padding', '1.2rem 4rem 4rem 4rem')
 }
 function template3(){
-    $('.template-bg').attr('src','/template/3.jpg')
+    $('.template-bg,.template-preview').attr('src','/template/3.jpg')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#503658')
     $('.ft1-color').css('color','#BFF849')
     $('.ft-color').css('color','#EFA983')
@@ -21,14 +22,14 @@ function template3(){
     $('.template-img-wrapper').css('padding', '4.9rem 4.1rem 4rem 4rem')
 }
 function template4(){
-    $('.template-bg').attr('src','/template/4.jpeg')
+    $('.template-bg,.template-preview').attr('src','/template/4.jpeg')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#f3ff48')
     $('.ft-color,.ft1-color').css('color','#121212')
       $('.template-img-wrapper img').css({'height':'150px', 'width': '162px'})
     $('.template-img-wrapper').css('padding', '5rem 4rem 4rem 4rem')
 }
 function template5(){
-    $('.template-bg').attr('src','/template/5.webp')
+    $('.template-bg,.template-preview').attr('src','/template/5.webp')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#96EFB8')
     $('.ft1-color').css('color','#090500')
     $('.ft-color').css('color','#223074')
@@ -36,7 +37,7 @@ function template5(){
     $('.template-img-wrapper').css('padding', '4.4rem 4rem 4rem 4rem')
 }
 function template6(){
-    $('.template-bg').attr('src','/template/6.jpg')
+    $('.template-bg,.template-preview').attr('src','/template/6.jpg')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#3B00E4')
     $('.ft1-color').css('color','#9BEDC4')
     $('.ft-color').css('color','#C5B3CC')
@@ -44,28 +45,28 @@ function template6(){
     $('.template-img-wrapper').css('padding', '4.48rem 4rem 4rem 4rem')
 }
 function template7(){
-    $('.template-bg').attr('src','/template/7.webp')
+    $('.template-bg,.template-preview').attr('src','/template/7.webp')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#DBB505')
     $('.ft-color,.ft1-color').css('color','#121212')
       $('.template-img-wrapper img').css({'height':'154px', 'width': '164px'})
     $('.template-img-wrapper').css('padding', '4.8rem 4rem 4rem 4rem')
 }
 function template8(){
-    $('.template-bg').attr('src','/template/8.jpg')
+    $('.template-bg,.template-preview').attr('src','/template/8.jpg')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#6800BB')
     $('.ft-color,.ft1-color').css('color','#E1F95A')
       $('.template-img-wrapper img').css({'height':'142px', 'width': '152px'})
     $('.template-img-wrapper').css('padding', '5.2rem 4rem 4rem 4rem')
 }
 function template9(){
-    $('.template-bg').attr('src','/template/9.jpg')
+    $('.template-bg,.template-preview').attr('src','/template/9.jpg')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#F774C4')
     $('.ft-color,.ft1-color').css('color','#121212')
       $('.template-img-wrapper img').css({'height':'142px', 'width': '152px'})
     $('.template-img-wrapper').css('padding', '5.2rem 4rem 4rem 4rem')
 }
 function template10(){
-    $('.template-bg').attr('src','/template/10.webp')
+    $('.template-bg,.template-preview').attr('src','/template/10.webp')
     $('.template-song-box,.template-artist-box,.template-footer,.template-minute-box,.template-genre-box').css('background-color','#FE5B47')
     $('.ft-color,.ft1-color').css('color','#121212')
       $('.template-img-wrapper img').css({'height':'154px', 'width': '164px'})

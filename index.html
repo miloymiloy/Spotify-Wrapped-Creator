@@ -11,9 +11,12 @@
   </head>
   <body>
     <div class="container-fluid">
-        <div class="row content-wrapper">
-
-            <div class="col template-wrapper d-flex justify-content-center">
+        <div class="row content-wrapper ">
+            <div class="d-flex justify-content-between text-light">
+                <h6 class="m-0 p-0">Spotify Wrapped Template Creator</h6>
+                <i class="fa-solid fa-gear " data-bs-toggle="offcanvas" href="#setting-wrapper" role="button" aria-controls="setting-wrapper"></i>
+            </div>
+            <div class="col-12 template-wrapper d-flex justify-content-center">
                
                <div class="template-cover">
                              
@@ -75,91 +78,98 @@
                     </div>
                </div>
             </div>
+            
             <div class="col">
-              
-              <div class="card p-4">
                
-               <!-- <div class="text-end">
-                <button class="btn btn-primary">Save</button>
-               </div> -->
-                <div class="">
-                    <h6 class="m-0 p-1">Select Template</h6>
-                    <div class="template-selection-box">
-                        <div class="template-selection-items" onclick="template1()">
-                            <span>1</span>
-                        </div>
-                        <div class="template-selection-items" onclick="template2()">
-                            <span>2</span>
-                        </div>
-                        <div class="template-selection-items" onclick="template3()">
-                            <span>3</span>
-                        </div>
-                        <div class="template-selection-items" onclick="template4()">
-                            <span>4</span>
-                        </div>
-                        <div class="template-selection-items" onclick="template5()">
-                            <span>5</span>
-                        </div>
-                        <div class="template-selection-items" onclick="template6()">
-                            <span>6</span>
-                        </div>
-                        <div class="template-selection-items" onclick="template7()">
-                            <span>7</span>
-                        </div>
-                        <div class="template-selection-items" onclick="template8()">
-                            <span>8</span>
-                        </div>
-                        <div class="template-selection-items" onclick="template9()">
-                            <span>9</span>
-                        </div>
-                        <div class="template-selection-items" onclick="template10()">
-                            <span>10</span>
-                        </div>
+                <div class="card setting-wrapper offcanvas offcanvas-end" id="setting-wrapper" tabindex="-1"  aria-labelledby="setting-wrapperLabel">
+                    <div class="text-end p-2">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
+                    <div class=" p-4 pt-0">
+                
+                        <div class="">
+                            <div class="template-preview-wrapper text-center">
+                                <img class="template-preview" height="100px" src="/image/preview.webp">
+                            </div>
+                            <h6 class="m-0 p-1">Select Template</h6>
+                            <div class="template-selection-box">
+                                <div class="template-selection-items" onclick="template1()">
+                                    <span>1</span>
+                                </div>
+                                <div class="template-selection-items" onclick="template2()">
+                                    <span>2</span>
+                                </div>
+                                <div class="template-selection-items" onclick="template3()">
+                                    <span>3</span>
+                                </div>
+                                <div class="template-selection-items" onclick="template4()">
+                                    <span>4</span>
+                                </div>
+                                <div class="template-selection-items" onclick="template5()">
+                                    <span>5</span>
+                                </div>
+                                <div class="template-selection-items" onclick="template6()">
+                                    <span>6</span>
+                                </div>
+                                <div class="template-selection-items" onclick="template7()">
+                                    <span>7</span>
+                                </div>
+                                <div class="template-selection-items" onclick="template8()">
+                                    <span>8</span>
+                                </div>
+                                <div class="template-selection-items" onclick="template9()">
+                                    <span>9</span>
+                                </div>
+                                <div class="template-selection-items" onclick="template10()">
+                                    <span>10</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col">
+                            <h6 class="m-0 p-1">Change Image</h6>
+                            <div class="form-group py-2 px-1">
+                                <input class="form-control change-cover" type="file" accept="image/*">
+                            </div>
+                        </div>
+                       <div class="d-flex">
+                            <div class="col">
+                                <h6 class="m-0 p-1">Top Artist</h6>
+                                <ol>
+                                    <li><input class="input-artist form-control" data-num="1"></li>
+                                    <li><input class="input-artist form-control" data-num="2"></li>
+                                    <li><input class="input-artist form-control" data-num="3"></li>
+                                    <li><input class="input-artist form-control" data-num="4"></li>
+                                    <li><input class="input-artist form-control" data-num="5"></li>
+                                </ol>
+                            </div>
+                            <div class="col">
+                                <h6 class="m-0 p-1">Top Song</h6>
+                                <ol>
+                                    <li><input class="input-song form-control" data-num="1"></li>
+                                    <li><input class="input-song form-control" data-num="2"></li>
+                                    <li><input class="input-song form-control" data-num="3"></li>
+                                    <li><input class="input-song form-control" data-num="4"></li>
+                                    <li><input class="input-song form-control" data-num="5"></li>
+                                </ol>
+                            </div>
+                       </div>
+        
+                       <div class="d-flex">
+                            <div class="col">
+                                <h6 class="m-0 p-1">Minutes Listened</h6>
+                                <input class="input-minutelist form-control">
+                            </div>
+                            <div class="col">
+                                <h6 class="m-0 p-1">Top Genre</h6>
+                                <input class="input-topgenre form-control">
+                            </div>
+                        </div>
+        
+        
+                        </div>
                 </div>
-
-                <div class="col">
-                    <h6 class="m-0 p-1">Change Image</h6>
-                    <div class="form-group py-2 px-1">
-                        <input class="form-control change-cover" type="file" accept="image/*">
-                    </div>
-                </div>
-               <div class="d-flex">
-                    <div class="col">
-                        <h6 class="m-0 p-1">Top Artist</h6>
-                        <ol>
-                            <li><input class="input-artist form-control" data-num="1"></li>
-                            <li><input class="input-artist form-control" data-num="2"></li>
-                            <li><input class="input-artist form-control" data-num="3"></li>
-                            <li><input class="input-artist form-control" data-num="4"></li>
-                            <li><input class="input-artist form-control" data-num="5"></li>
-                        </ol>
-                    </div>
-                    <div class="col">
-                        <h6 class="m-0 p-1">Top Song</h6>
-                        <ol>
-                            <li><input class="input-song form-control" data-num="1"></li>
-                            <li><input class="input-song form-control" data-num="2"></li>
-                            <li><input class="input-song form-control" data-num="3"></li>
-                            <li><input class="input-song form-control" data-num="4"></li>
-                            <li><input class="input-song form-control" data-num="5"></li>
-                        </ol>
-                    </div>
-               </div>
-
-               <div class="d-flex">
-                    <div class="col">
-                        <h6 class="m-0 p-1">Minutes Listened</h6>
-                        <input class="input-minutelist form-control">
-                    </div>
-                    <div class="col">
-                        <h6 class="m-0 p-1">Top Genre</h6>
-                        <input class="input-topgenre form-control">
-                    </div>
-                </div>
-
-
-              </div>
+               
             </div>
         </div>
 

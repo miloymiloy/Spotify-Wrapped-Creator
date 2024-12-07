@@ -8,12 +8,11 @@
 }
 .container-fluid{
     min-height: 100vh;
-  background-color: #252525;
+    background-color: #252525;
 }
-.card{
-}
+
 .content-wrapper{
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,4 +150,8 @@ span{
 }
 .template-selected{
     background-color: gray;
+}
+
+#welcome-modal p{
+    font-size: .7rem;
 }
